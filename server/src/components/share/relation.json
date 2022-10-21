@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_share_relations",
+  "info": {
+    "displayName": "relation",
+    "icon": "external-link-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

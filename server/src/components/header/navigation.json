@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_header_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.link"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

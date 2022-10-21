@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_share_imgs",
+  "info": {
+    "displayName": "Img",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "src": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

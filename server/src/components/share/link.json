@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_share_links",
+  "info": {
+    "displayName": "link",
+    "icon": "share"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}
